@@ -19,8 +19,8 @@ class BankAccount():
         if amount < 0:
             raise AccountException('Balance cant be negative')
         else:
-            if abs(amount-self.__accountNumber) > 100000:
-                print("Very big operation of ", amount-self.__accountBalance)
+            if abs(amount - self.__accountNumber) > 100000:
+                print("Very big operation of ", amount - self.__accountBalance)
             self.__accountBalance = amount
 
     @property
@@ -56,4 +56,3 @@ try:
     del firstAccount.accountNumber
 except AccountException as E:
     print(E)
-
