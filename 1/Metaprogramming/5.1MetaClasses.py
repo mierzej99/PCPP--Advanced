@@ -25,3 +25,4 @@ myobj1 = My_Class1()
 myobj1.get_instantiation_time() #This instance got 'get_instantiation_time' method from metaclass
 myobj2 = My_Class2()
 myobj2.get_instantiation_time() #This instance got 'get_instantiation_time' by definition
+print(My_Meta.instantiated_by)
