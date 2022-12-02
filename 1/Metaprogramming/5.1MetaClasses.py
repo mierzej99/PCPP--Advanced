@@ -26,3 +26,4 @@ myobj1.get_instantiation_time() #This instance got 'get_instantiation_time' meth
 myobj2 = My_Class2()
 myobj2.get_instantiation_time() #This instance got 'get_instantiation_time' by definition
 print(My_Meta.instantiated_by)
+print(My_Class1.__dict__)
